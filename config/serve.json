@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://egisglobal.sharepoint.com/sites/TEST_Closing/company/prhu/ICTransactions/Forms/AllItems.aspx",
+      "fieldCustomizers": {
+        "ChangeStatus": {
+          "id": "b5e7a199-2983-495e-94c4-b9021c550a23",
+          "properties": {
+            "AdminGroup": "Administrators"
+          }
+        }
+      }
+    },
+    "changeStatus": {
+      "pageUrl": "https://egisglobal.sharepoint.com/sites/TEST_Closing/company/prhu/ICTransactions/Forms/AllItems.aspx",
+      "fieldCustomizers": {
+        "ChangeStatus": {
+          "id": "b5e7a199-2983-495e-94c4-b9021c550a23",
+          "properties": {
+            "AdminGroup": "Administrators"
+          }
+        }
+      }
+    }
+  }
+}

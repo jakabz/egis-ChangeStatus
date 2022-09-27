@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "egis-closing-status-change-extension",
+    "libraryId": "86bb8447-e83f-4dd3-8796-31e634f62860",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "egis-closing-status-change-extension",
+    "solutionShortDescription": "egis-closing-status-change-extension description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}
